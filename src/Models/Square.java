@@ -16,7 +16,7 @@ public class Square  extends Figure implements Print {
     protected double calculatePerimeter(){
         return 4*a;
     }
-    public void print(){
+    public void Print(){
         System.out.println("Square:");
         System.out.print("Side length: " + a + "\n");
         System.out.print("Area: " + calculateArea() + "\nPerimeter: " + calculatePerimeter() + "\n");

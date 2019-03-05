@@ -1,5 +1,5 @@
 package Interfaces;
 
 public interface Print {
-    void print();
+    void Print();
 }

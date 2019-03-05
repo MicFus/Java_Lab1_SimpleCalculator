@@ -30,7 +30,7 @@ public class Main {
                         figure = new Circle(menu.parameters[0]);
                     }
                 }
-                catch (Exception e){System.out.println("Index out of range");}
+                catch (Exception e){System.out.println(e.getMessage());}
             }
             else if(menu.choice==2 && figure!=null) {
                 menu.Display((Print)figure);

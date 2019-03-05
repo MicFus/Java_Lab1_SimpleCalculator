@@ -11,7 +11,7 @@ public class Circle  extends Figure implements Print {
     }
     protected double calculateArea(){   return Math.PI*Math.pow(r,2);    }
     protected double calculatePerimeter(){   return 2*Math.PI*r;    }
-    public void print(){
+    public void Print(){
         System.out.println("Circle");
         System.out.print("Radius: " + r + "\n");
         System.out.print("Area: "+ calculateArea() + "\nPerimeter: " + calculatePerimeter()+"\n");
